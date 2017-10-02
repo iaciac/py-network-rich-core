@@ -10,6 +10,8 @@
 #    BSD license.
 
 import networkx as nx
+from networkx.utils import accumulate
+from networkx.utils import not_implemented_for
 
 __all__ = ['extract_rich_core']
 
