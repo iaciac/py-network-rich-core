@@ -11,6 +11,11 @@
 
 import networkx as nx
 
+__all__ = ['extract_rich_core']
+
+
+@not_implemented_for('directed')
+@not_implemented_for('multigraph')
 def extract_rich_core(G, weight='weight'):
     """Returns the core/periphery structure of a weighted undirected network (see [1]).
         
