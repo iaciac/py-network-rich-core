@@ -1,6 +1,6 @@
 # coding: utf-8
 
-"""A Python module for extracting rich-core of a network,
+"""A Python module for extracting the rich-core of a network,
     as defined by Ma A and Mondragón RJ (2015) in Rich-cores in networks. PLoS One 10(3):e0119678."""
 
 
